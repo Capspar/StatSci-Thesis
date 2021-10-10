@@ -1,5 +1,5 @@
 # This file contains the analysis of the dendritic cell data.
-# It was used for producing the plots in Figures 3.6, 3.7, and 3.8.
+# It was used for producing the plots in Figures 3.7-3.9.
 
 library(scater)  # contains the SingleCellExperiment class and accompanying functions
 library(scran)  # contains the filterHVGs() function
