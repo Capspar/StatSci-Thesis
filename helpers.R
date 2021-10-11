@@ -1,7 +1,12 @@
-# This file contains functions for the simulation and analysis of the
-# single cell data. The functions are imported in the analysis code.
+# This file contains functions for the simulation and analysis of
+# single cell data. The functions are imported in the analysis code of the
+# simulations, the dendritic cell data, and the lymphocyte data.
 
 # Prepare simulation scenarios
+# Includes:
+# - Removal of undetected genes
+# - HVG selection
+# - PCA
 sim_prep <- function(params, top_HVGs = 0.10) {
   
   message("Simulating SingleCellExperiment...")
